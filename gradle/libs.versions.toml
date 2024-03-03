@@ -1,0 +1,35 @@
+[versions]
+timber = "5.0.1"
+scalableSize = "1.1.0"
+navigation = "2.7.4"
+hilt = "2.48"
+moshi = "1.14.0"
+retrofit = "2.9.0"
+retrofitCoroutinesAdapter = "0.9.2"
+loggingInterceptor = "4.10.0"
+room = "2.6.1"
+coil = "2.5.0"
+kotlin = "1.9.22"
+
+[libraries]
+timber = { module = "com.jakewharton.timber:timber", version.ref = "timber" }
+sdp-scalable-size = { module = "com.intuit.sdp:sdp-android", version.ref = "scalableSize" }
+ssp-scalable-size = { module = "com.intuit.ssp:ssp-android", version.ref = "scalableSize" }
+androidx-navigation-fragment-ktx = { module = "androidx.navigation:navigation-fragment-ktx", version.ref = "navigation" }
+androidx-navigation-ui-ktx = { module = "androidx.navigation:navigation-ui-ktx", version.ref = "navigation" }
+androidx-navigation-safe-args-gradle-plugin = { module = "androidx.navigation:navigation-safe-args-gradle-plugin", version.ref = "navigation" }
+hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "hilt" }
+hilt-android-compiler = { module = "com.google.dagger:hilt-compiler", version.ref = "hilt" }
+hilt-android-gradle-plugin = { module = "com.google.dagger:hilt-android-gradle-plugin", version.ref = "hilt" }
+moshi = { module = "com.squareup.moshi:moshi-kotlin", version.ref = "moshi" }
+moshi-codegen = { module = "com.squareup.moshi:moshi-kotlin-codegen", version.ref = "moshi" }
+retrofit2 = { module = "com.squareup.retrofit2:converter-moshi", version.ref = "retrofit" }
+retrofit2-kotlin-coroutines-adapter = { module = "com.jakewharton.retrofit:retrofit2-kotlin-coroutines-adapter", version.ref = "retrofitCoroutinesAdapter" }
+okhttp3-logging-interceptor = { module = "com.squareup.okhttp3:logging-interceptor", version.ref = "loggingInterceptor" }
+room-android = { module = "androidx.room:room-ktx", version.ref = "room" }
+room-android-runtime = { module = "androidx.room:room-runtime", version.ref = "room" }
+room-android-compiler = { module = "androidx.room:room-compiler", version.ref = "room" }
+coil-image = { module = "io.coil-kt:coil", version.ref = "coil" }
+
+[plugins]
+kotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
